@@ -30,7 +30,7 @@ def get_estimator():
     feature_extractor = FeatureExtractor()
 
     classifier = Classifier()
-
+	#extra comment
     pipe = make_pipeline(feature_extractor, classifier)
     return pipe
 
